@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(242, 248, 248);
+    color: rgb(51, 68, 85);
+}
+
+header nav {
+    height: 55px;
+}
+
+nav img, ul, li {
+    text-decoration: none;
+    display: table;
+    float: left;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+.btn{
+    float: right;
+    margin: 15px;
+    background-color: rgb(51, 68, 85);
+    color: white;
+    padding: 9px 10px;
+    width: 100px;
+    text-align: center;
+    border: 0px solid transparent;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(51, 68, 85);
+}
+
+/* MAIN */
+
+main {
+    display: inline-flex;
+}
+
+.onehalf{
+    width: 49%;
+    height: 30rem;
+    text-align: left;
+    clear: bottom;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 60px;
+}
+
+.twohalf {
+    width: 49%;
+    float:right;
+    height: 30rem;
+    margin-left: 30px;
+}
+
+.btntwo{
+    float: right;
+    background-color: rgb(51, 68, 85);
+    color: white;
+    padding: 9px 10px;
+    width: 100px;
+    text-align: center;
+    border: 0px solid transparent;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.form-control{
+    width: 61.8%;
+    padding: 9px 10px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    background-color: #e6e3e3;
+    font-size: 15px;
+    font-weight: 300;
+    color: #696666;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left:0px;
+    display: inline-flex;
+}
+
+/* SECTION */
+
+section section {
+    color: #58636D;
+    display: inline-block;
+    width: 22%;
+    margin: 40px 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: left;
+    float: left;
+    height: 200px;
+    background-color: white;
+}
+
+/* MEDIA QUERY ******************** */
