@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 body, html {
     margin: 0;
     padding: 0;
     background-color:  rgb(242, 248, 248);
     color: rgb(51, 68, 85);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 header nav {
     height: 55px;
+}
+
+header nav ul {
+    margin-left: 25%;
 }
 
 nav img, ul, li {
@@ -42,13 +49,20 @@ main {
     display: inline-flex;
 }
 
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 18px;
+}
+
 .onehalf{
-    width: 49%;
+    width: 70%;
     height: 30rem;
     text-align: left;
     clear: bottom;
     margin-left: 50px;
-    margin-right: 10px;
     margin-top: 60px;
 }
 
@@ -56,7 +70,6 @@ main {
     width: 49%;
     float:right;
     height: 30rem;
-    margin-left: 30px;
 }
 
 .btntwo{
@@ -73,7 +86,7 @@ main {
 }
 
 .form-control{
-    width: 61.8%;
+    width: 65.8%;
     padding: 9px 10px;
     text-align: left;
     border: 0;
@@ -93,8 +106,12 @@ main {
 section section {
     color: #58636D;
     display: inline-block;
-    width: 22%;
+    width: 20%;
     margin: 40px 20px;
+}
+
+.one {
+    margin-left:50px;
 }
 
 
@@ -104,7 +121,10 @@ footer {
     text-align: left;
     float: left;
     height: 200px;
-    background-color: white;
+    background-color: rgb(252, 254, 251);
+    padding-top: 60px;
+    padding-left: 50px;
+    width: 100%;
 }
 
 /* MEDIA QUERY ******************** */
