@@ -16,7 +16,7 @@
     <!-- HEADER AND NAV -->
     <header>
         <nav>
-            <img src="imgs/Sourcelogo.png" alt="logo">
+            <img class="source" src="imgs/Sourcelogo.png" alt="logo">
             <ul>
                 <li><a href="#">First link</a></li>
                 <li><a href="#">Second link</a></li>
@@ -30,59 +30,68 @@
     <!-- MAIN -->
 
    <main>
-       <div class="onehalf">
-           <span>TAGLINE</span>
-           <h1>Source helps creators do more of what they love</h1>
-           <form>
-             <input class="form-control" type="text" name="name" placeholder="Placeholder" required>
-             <button class="btntwo" type="submit" class="btn">Button</button>
-           </form>
-           <p>A device that enables collaboration will lessen the chance of work having to be completely done.</p>
-        </div>
+        <div class="onehalf">
+            <span>TAGLINE</span>
+            <h1 class="source">Source helps creators do more of what they love</h1>
+            <form class="form">
+              <input class="form-control" type="text" name="name" placeholder="Placeholder" required>
+              <button class="btntwo" type="submit" class="btn">Button</button>
+            </form>
+            <p>A device that enables collaboration will lessen the chance of work having to be completely done.</p>
+       </div>
 
-        <div class="twohalf"></div>
-             <img src="imgs/mockup.png" width=55%>
-        </div> 
+        <div class="twohalf">
+            <img class="mockup" src="imgs/mockup.png" width=600>
+       </div>
    </main>
 
    <!-- SECTION WITH 4 SUBSECTIONS -->
 
-   <section>
-       <section class="one">
-           <img src="imgs/3.png">
-           <h3>Feature one</h3>
-           <p>In such a test, the user performs realistic tasks by interacting with the paper prototype</p>
-           <span>First link ></span>
-       </section>
+   <section class="feature">
+       <div class="grid">
+           <div class="one">
+               <div class="one">
+                <img src="imgs/3.png">
+                <h3>Feature one</h3>
+                <p>In such a test, the user performs realistic tasks by interacting with the paper prototype</p>
+                <span>First link ></span>
+               </div>
+           </div>
 
-       <section>
-           <img src="imgs/2.png">
-           <h3>Feature two</h3>
-           <p>Three techniques of paper prototyping used for usability testing are comps, wireframes</p>
-           <span>Second link ></span>
-       </section>
+           <div class="two">
+               <div>
+                <img src="imgs/2.png">
+                <h3>Feature two</h3>
+                <p>Three techniques of paper prototyping used for usability testing are comps, wireframes</p>
+                <span>Second link ></span>
+               </div>
+           </div>
 
-       <section>
-           <img src="imgs/3.png">
-           <h3>Feature three</h3>
-           <p>Rapid prototyping involves a group of designers who each create a paper prototype</p>
-           <span>Third link ></span>
-       </section>
+           <div class="three">
+               <div>
+                <img src="imgs/3.png">
+                <h3>Feature three</h3>
+                <p>Rapid prototyping involves a group of designers who each create a paper prototype</p>
+                <span>Third link ></span>
+               </div>
+           </div>
 
-       <section>
-           <img src="imgs/4.png">
-           <h3>Feature four</h3>
-           <p>Functionality is similiarly unimportant, but in this case are closer to the final product</p>
-           <span>Fourth link ></span>
-       </section>
-
+           <div class="four">
+               <div>
+                <img src="imgs/4.png">
+                <h3>Feature four</h3>
+                <p>Functionality is similiarly unimportant, but in this case are closer to the final product</p>
+                <span>Fourth link ></span>
+               </div>
+           </div>
+       </div>
    </section>
 
    <!-- SECTION 100% WIDTH -->
 
-   <footer>
-       <h1>Collecting information about the problem</h1>
-       <p>In the context of information architecture, information is seperate from both knowledge and data, and lies nebulously between them.</p>
-   </footer>
+   <section class="collect">
+       <h1 class="info">Collecting information about the problem</h1>
+       <p class="context">In the context of information architecture, information is seperate from both knowledge and data, and lies nebulously between them.</p>
+   </section>
 </body>
 </html>
